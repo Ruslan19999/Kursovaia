@@ -12,7 +12,7 @@ public class Entry {
 	
 	public void save() throws IOException {
 		
-		 FileWriter writer = new FileWriter("D:/Practica/output.txt"); 
+		 FileWriter writer = new FileWriter("D:/Kursovaia/output.txt"); 
 		 for(String str: order.getList()) {
 		   writer.write(str + System.lineSeparator());
 		 }
